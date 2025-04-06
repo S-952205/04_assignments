@@ -11,7 +11,7 @@ NUM_SIDES = 6
 # 1st function
 def roll_dice():
 
-    # Yeh die1 sirf roll_dice() ke andar hai issay isimain sirf.
+    # Yeh die1 sirf roll_dice() ke andar hai issay isimain use krsktay sirf.
     die1: int = random.randint(1, NUM_SIDES)  
     die2: int = random.randint(1, NUM_SIDES)
 
