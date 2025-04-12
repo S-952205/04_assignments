@@ -14,7 +14,7 @@ def read_phone_numbers():
         if name == "": # agar user blank chor kr enetr dabay tw loop yahan break hojaiga
             break
 
-        number = input('Enter a number: ')
+        number = str(input('Enter a number: '))
 
         phonebook[name] = number # dictionary main data key: value main add {name:number}
 
