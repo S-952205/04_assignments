@@ -8,7 +8,7 @@ def double(num: int) -> int :
 
 def main():
     
-    num: int = int(input('Enter a number: '))
+    num: int = int(input('\033[1;3mEnter a number:\033[0m '))
     num_times_two: int = double(num)
     print(f'Double that is: {num_times_two}')
 
