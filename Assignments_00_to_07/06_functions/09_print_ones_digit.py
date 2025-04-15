@@ -1,5 +1,6 @@
-# iss program main hum function banainge jo integer layga input or uss integer ka eik 
-# digit print kray ga.
+# iss program main hum function banainge jo integer layga input or uss integer ka 
+# ones digit (akhri digit) print kray ga Modulo operator ka istemal karke ones digit 
+# nikalna ek aasaan tareeka hai.
 
 from colorama import Fore, init
 init()
