@@ -3,6 +3,8 @@
 # Socho aapke paas 6 candies hain. agar aap 3 friends mein equal baant sakte hain (2-2 candies each),
 # toh 3 divisor hai.
 
+from colorama import Fore, init
+init()
 
 def print_divisor(num):
     
@@ -16,7 +18,7 @@ def print_divisor(num):
 
 def main():
 
-    num: int = int(input('Enter a number: '))
+    num: int = int(input(f'{Fore.BLUE}Enter a number:{Fore.RESET} '))
     print_divisor(num)     
 
 
